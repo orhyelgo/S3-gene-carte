@@ -1,5 +1,14 @@
-VERSION
-WSL 2
-GIT 39.3
-Python 3.10.7
-Ubuntu 22.04.2
+VERSION des outils
+
+    WSL 2
+    Ubuntu 22.04.2
+    GIT 39.3
+    Python 3.10.7
+    
+
+    Extensions utilisees dans VS Code:
+        - C/C++ Extension Pack
+        - Cmake
+        - Cmake Tools
+        - Code Runner
+        - Python Extension Pack
