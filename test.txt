@@ -1,1 +1,0 @@
-ceci est un essai de la commande git add test.txt
