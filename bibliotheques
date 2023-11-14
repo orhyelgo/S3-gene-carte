@@ -1,2 +1,5 @@
 PYTHON
-  - matplotlib
+  - matplotlib.pyplot
+  - numpy
+  - Axes3D
+  - noise
