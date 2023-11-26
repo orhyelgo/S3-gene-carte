@@ -1,5 +1,4 @@
-matplotlib.pyplot
-Axes3D
+matplotlib
 noise
 random
 numpy
