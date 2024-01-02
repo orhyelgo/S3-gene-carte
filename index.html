@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Montagne en 3D</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/style.css') }}">
+
+
+    <title>Formulaire Flask</title>
 </head>
 <body>
-    <h1>Montagne en 3D</h1>
-    <img src="data:image/png;base64,{{ plot_url }}" alt="Montagne en 3D">
+
+    <!--<h1>Résultat de la Heightmap</h1> 
+
+    <img src="{{ url_for('static', filename='heightmap_image.png') }}" alt="Heightmap Image">-->
+    
+  
+
+
+    <form method="post">
+        
+        <label for="case1">DESERT :</label>
+        <input type="checkbox" id="case1" name="case1">
+        <br>
+
+        <label for="case2">Montagne:</label>
+        <input type="checkbox" id="case2" name="case2">
+        <br>
+
+        <label for="case3">Plateaux :</label>
+        <input type="checkbox" id="case3" name="case3">
+        <br>
+
+        <label for="case4">Pleines :</label>
+        <input type="checkbox" id="case4" name="case4">
+        <br>
+
+        <label for="case5">Riviers :</label>
+        <input type="checkbox" id="case5" name="case5">
+        <br>
+        <button type="submit">Envoyer</button>
+    </form>
 </body>
 </html>
